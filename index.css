@@ -1,0 +1,204 @@
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lowres {
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@font-face {
+    font-family: Chentenario;
+    src: url('Chentenario.otf');
+
+    font-family: Wensley;
+    src: url('WensleyDemo.ttf');
+
+    font-family: Typewriter;
+    src: url('typewriter.otf');
+
+    font-family: KC;
+    src: url('kc.ttf');
+}
+
+.spacer {
+    background-color: #111;
+    height: 20px;
+}
+
+.mySlides {
+    display: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#img1 {
+    background-image: url('carousel/chicago2.jpg');
+    height: 100%;
+}
+
+#img2 {
+    background-image: url('carousel/coffee.jpg');
+    height: 100%;
+}
+
+#img3 {
+    background-image: url('carousel/pingpong.jpg');
+    height: 100%;
+}
+
+#img4 {
+    background-image: url('carousel/puppy.jpg');
+    height: 100%;
+}
+
+#img5 {
+    background-image: url('carousel/beach.jpg');
+    height: 100%;
+}
+
+#img6 {
+    background-image: url('carousel/basketball.jpg');
+    height: 100%;
+}
+
+#img7 {
+    background-image: url('carousel/bunny.jpg');
+    height: 100%;
+}
+
+#img8 {
+    background-image: url('carousel/chicago1.jpg');
+    height: 100%;
+}
+
+#img9 {
+    background-image: url('carousel/rest.jpg');
+    height: 100%;
+}
+
+#img10 {
+    background-image: url('carousel/school.jpg');
+    height: 100%;
+}
+
+#img11 {
+    background-image: url('carousel/food.jpg');
+    height: 100%;
+}
+
+#img12 {
+    background-image: url('images/ucla.jpg');
+    height: 100%;
+}
+
+#img13 {
+    background-image: url('images/bulgaria.jpg');
+    height: 100%;
+}
+
+#img14 {
+    background-image: url('images/family.jpg');
+    height: 100%;
+    left: 40%;
+}
+
+#img15 {
+    background-image: url('images/tech1.jpg');
+    height: 100%;
+    left: 40%;
+}
+
+#img16 {
+    background-image: url('images/icemelt.jpg');
+    height: 100%;
+    left: 40%;
+}
+
+#img17 {
+    background-image: url('images/piano.jpg');
+    height: 100%;
+    left: 40%;
+}
+
+#img18 {
+    background-image: url('images/costarica.jpg');
+    height: 100%;
+    left: 40%;
+}
+
+#img19 {
+    background-image: url('images/food.jpg');
+    height: 100%;
+    left: 40%;
+}
+
+#img20 {
+    background-image: url('images/explore.jpg');
+    height: 100%;
+    left: 40%;
+}
+
+.heading {
+    position: absolute;
+    top: 40%;
+    left: 26%;
+    text-align: center;
+    font-family: Wensley;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 100px;
+}
+
+.header {
+    font-family: Wensley;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 30px;
+}
+
+.caption {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+
+}
+
+.block {
+    z-index: 4;
+    background-color: #fff;
+    height: 100%;
+    /* opacity: 0.7; */
+    width: 40%;
+    padding: 18px;
+    text-align: center;
+    border-right-style: groove;
+    border-right-color: #111;
+    float: left;
+}
+
+.caption 
+span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
